@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(246, 253, 255);
+}
+
+.main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(160, 215, 254);
+    font-weight: 600;
+    cursor: pointer;
+}
